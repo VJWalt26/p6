@@ -1,0 +1,27 @@
+body {
+	font-family: 'Julius Sans One',sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	background-image: url('http://i1353.photobucket.com/albums/q674/vjwalt26/colisseum_zpswnwa4eas.jpeg');
+	color:#FF0000;
+}
+.container {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#numbers {
+	border-color: #FF0000;
+}
+#DecToRom {
+	border-color: #FF0000;
+}
+#RomToDec {
+	border-color: #FF0000;
+}
+.SuckRomans {
+	width:400px;
+	height:700px;
+	font-size: 10px;
+	float:right;
+	margin-top: 520px;
+}

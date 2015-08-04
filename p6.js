@@ -42,8 +42,13 @@ function toRomanNum(){
 		romanNum+=decimalNumbers[decArray[i]];
 		}
 	}
+<<<<<<< HEAD
 	setHTML("NumOutput" , romanNum)
 	console.log(romanNum);
+=======
+	setHTML("NumOutput", romanNum);
+	//console.log(romanNum);
+>>>>>>> 864609c43ade716d90cd0b65a3f66bf0d6c5deef
 
 
 }
@@ -66,8 +71,13 @@ function toDecimalNum(){
 			//getRoman=getRoman.substring(0,getRoman.length);
 		}
 	}
+<<<<<<< HEAD
 	setHTML("NumOutput" , decNum);
 	console.log(decNum);
+=======
+	setHTML("NumOutput",decNum);
+	//console.log(decNum);
+>>>>>>> 864609c43ade716d90cd0b65a3f66bf0d6c5deef
 
 
 
