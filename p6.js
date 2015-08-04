@@ -42,13 +42,13 @@ function toRomanNum(){
 		romanNum+=decimalNumbers[decArray[i]];
 		}
 	}
-	
+	setHTML("NumOutput" , romanNum)
 	console.log(romanNum);
 
 
 }
 function toDecimalNum(){
-	var decNum = 0;
+	var decNum=0;
 	var getRoman = getInput("Numbers");
 	var romArray = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"];
 	for (var i=0; i<getRoman.length; i++){
@@ -66,6 +66,7 @@ function toDecimalNum(){
 			//getRoman=getRoman.substring(0,getRoman.length);
 		}
 	}
+	setHTML("NumOutput" , decNum);
 	console.log(decNum);
 
 
